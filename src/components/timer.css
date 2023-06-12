@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title{
+    font-size: 40px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.header,  .buttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.header span{
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+.inputContainer input{
+    border: none;
+    outline: none;
+    font-size: 30px;
+    width: 50px;
+}
+
+.inputContainer span{
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.buttonContainer button{
+    width: 48%;
+    height: 50px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.start{
+    background-color: green;
+}
+
+.reset{
+    background-color: orange;
+}
+
+.stop{
+    background-color: red;
+}
